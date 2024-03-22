@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0 0 42px;
+    color: #17233D;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    letter-spacing: 0.875px;
+}
+
+.link-menu {
+    margin-right: 36px;
+}
+
+button {
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+section {
+    display: inline-block;
+    margin-left: 85px;
+}
+
+img {
+    width: 583.17px;
+    height: 466.9px;
+    margin: 277px 0 0 121px;
+    
+}
+
+h1 {
+    width: 582px;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 82px; /* 132.258% */
+    letter-spacing: 0.596px;
+    color: #161A49;
+}
+
+p {
+    width: 493px;
+    margin: 47px 0 55px 0;
+    color: #4B505A;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+}
+
+.link-section {
+    color: #6FBF44;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+main {
+    display: table;
+}
+
+@media screen and (max-width: 1100px) {
+    img {
+        width: 280px;
+        height: 270px;
+    }
+
+    .link-section{
+        color: #6FBF44;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin: 0 auto;
+    }
+    section {
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+        display: block;
+        display: table-header-group;
+    }    
+    h1 {
+        width: 278px;
+        color: #161A49;
+        text-align: center;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0.596px;
+        margin: 0;
+    }
+    p {
+        width: 304px;
+        color: #4B505A;
+        text-align: center;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33px;
+        letter-spacing: 0.5px;
+    }
+    
+}
