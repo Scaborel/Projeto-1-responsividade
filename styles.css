@@ -85,6 +85,7 @@ main {
     img {
         width: 280px;
         height: 270px;
+        margin: 47px;
     }
 
     .link-section{
@@ -94,7 +95,7 @@ main {
         font-weight: 500;
         line-height: normal;
         letter-spacing: 1px;
-        margin: 0 auto;
+        margin: 140px;
     }
     section {
         width: 100%;
@@ -113,7 +114,7 @@ main {
         font-weight: 700;
         line-height: 30px;
         letter-spacing: 0.596px;
-        margin: 0;
+        margin: 60px;
     }
     p {
         width: 304px;
@@ -124,6 +125,15 @@ main {
         font-weight: 400;
         line-height: 33px;
         letter-spacing: 0.5px;
+        margin: 47px;
+    }
+    header {
+        display: none;
+    }
+    main {
+        position: static;
+        height: 100vh;
+        width: 100vw;
     }
     
 }
